@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceCheckout.API", "EC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceCheckout.Models", "ECommerceCheckout.Models\ECommerceCheckout.Models.csproj", "{2416FD68-909A-42A2-8C0E-14883F03BE15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceCheckout.Service", "ECommerceCheckout.Service\ECommerceCheckout.Service.csproj", "{BA2A90CD-1B25-4C96-ACF1-CC87F359C2CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2416FD68-909A-42A2-8C0E-14883F03BE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2416FD68-909A-42A2-8C0E-14883F03BE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2416FD68-909A-42A2-8C0E-14883F03BE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2A90CD-1B25-4C96-ACF1-CC87F359C2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2A90CD-1B25-4C96-ACF1-CC87F359C2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2A90CD-1B25-4C96-ACF1-CC87F359C2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2A90CD-1B25-4C96-ACF1-CC87F359C2CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

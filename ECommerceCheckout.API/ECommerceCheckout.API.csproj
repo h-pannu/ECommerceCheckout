@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ECommerceCheckout.Models\ECommerceCheckout.Models.csproj" />
+    <ProjectReference Include="..\ECommerceCheckout.Service\ECommerceCheckout.Service.csproj" />
   </ItemGroup>
 
 </Project>
