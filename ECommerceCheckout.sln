@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceCheckout.API", "ECommerceCheckout.API\ECommerceCheckout.API.csproj", "{41CD9927-E580-4ED2-B7D1-2743542922D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceCheckout.Models", "ECommerceCheckout.Models\ECommerceCheckout.Models.csproj", "{2416FD68-909A-42A2-8C0E-14883F03BE15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{41CD9927-E580-4ED2-B7D1-2743542922D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41CD9927-E580-4ED2-B7D1-2743542922D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41CD9927-E580-4ED2-B7D1-2743542922D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2416FD68-909A-42A2-8C0E-14883F03BE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2416FD68-909A-42A2-8C0E-14883F03BE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2416FD68-909A-42A2-8C0E-14883F03BE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2416FD68-909A-42A2-8C0E-14883F03BE15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
