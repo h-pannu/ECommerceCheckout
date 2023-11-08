@@ -52,3 +52,34 @@ The API will respond with the total price in JSON format, like this:
 
 
 
+******Approach******
+I built this e-commerce checkout API using ASP.NET Core. Here's an overview of my approach:
+
+**Project Setup:**
+
+I created N-Tier architecture by creating Web Api project, Library project for Models, Library project for Services and xunit project to have seperation of concerns. I used dependency injection to inject checkout service into controller post method.
+
+**Data Model:**
+
+Created a Watch class to represent watches with properties for Watch ID, Watch Name, Unit Price, and Discount.
+Created a Discount class to represent Discount Id, DiscountQuantity, DiscountPrice
+
+**Checkout Controller:**
+
+Implemented a CheckoutController with a Checkout action. Injected checkout service interface to call CalculateTotalCost method.
+This action calculates the total price based on the provided watch IDs, considering any discounts.
+
+Discount Logic:
+
+Implemented logic in the CalculateTotalCost Logic method to calculate the total price and apply discounts as specified in the requirements.
+
+**Testing:**
+
+Added unit tests to validate the API's functionality.
+Ensured the API returns the correct total price for different combinations of watches.
+
+**Documentation and Readme:**
+
+Documented the setup process and usage of the API in this README.
+Explained my approach, design decisions, and how I handled discount logic.
+
