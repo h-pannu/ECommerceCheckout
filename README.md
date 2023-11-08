@@ -83,3 +83,34 @@ Ensured the API returns the correct total price for different combinations of wa
 Documented the setup process and usage of the API in this README.
 Explained my approach, design decisions, and how I handled discount logic.
 
+
+****Improvements****
+If I had more time, here are some improvements I would consider:
+
+**Error Handling:**
+
+Implement better error handling and provide meaningful error responses for edge cases or invalid input.
+
+**Authentication and Authorization:**
+
+Add authentication and authorization mechanisms to secure the API if it were to be used in a real e-commerce system.
+
+**Logging:**
+
+Implement logging to capture important events and exceptions for monitoring and debugging purposes.
+
+**Optimization:**
+
+Optimize the discount calculation logic for performance, especially if there is a large catalog.
+
+**API Versioning:**
+
+Consider adding versioning to the API to handle future changes or updates to the checkout logic.
+
+**More Testing:**
+
+Expand the test suite to cover additional scenarios and edge cases.
+
+**Containerization and Deployment:**
+
+Dockerize the application for easy deployment and consider deploying it to a cloud platform.
