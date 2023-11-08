@@ -22,9 +22,10 @@ namespace ECommerceCheckout.API.Controllers
                 return BadRequest("Invalid request");
             }
 
-            decimal totalPrice = _checkoutService.CalculateTotalCost(request);  
+            decimal totalPrice = _checkoutService.CalculateTotalCost(request);
 
-            return Ok(new { price = totalPrice });
+            //return Ok(new { price = totalPrice });
+            return Ok(totalPrice);
         }
 
 
