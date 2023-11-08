@@ -50,6 +50,7 @@ Response:
 The API will respond with the total price in JSON format, like this:
 { "price": 360 }  
 
+<img width="721" alt="image" src="https://github.com/h-pannu/ECommerceCheckout/assets/16377823/b86f2eff-96d3-4f61-83cb-87c98e945ba1">
 
 
 ******Approach******
@@ -59,14 +60,24 @@ I built this e-commerce checkout API using ASP.NET Core. Here's an overview of m
 
 I created N-Tier architecture by creating Web Api project, Library project for Models, Library project for Services and xunit project to have seperation of concerns. I used dependency injection to inject checkout service into controller post method.
 
+<img width="223" alt="image" src="https://github.com/h-pannu/ECommerceCheckout/assets/16377823/76e9225b-019a-49cc-b2a0-12e7d25db7b8">
+
+
 **Data Model:**
 
 Created a Watch class to represent watches with properties for Watch ID, Watch Name, Unit Price, and Discount.
 Created a Discount class to represent Discount Id, DiscountQuantity, DiscountPrice
 
+<img width="190" alt="image" src="https://github.com/h-pannu/ECommerceCheckout/assets/16377823/c86bcc51-48d7-49be-801c-5172ca30a105">
+
+
 **Checkout Controller:**
 
 Implemented a CheckoutController with a Checkout action. Injected checkout service interface to call CalculateTotalCost method.
+
+<img width="818" alt="image" src="https://github.com/h-pannu/ECommerceCheckout/assets/16377823/c0d0a138-6a3c-4df3-90d0-05bea6c37185">
+
+
 This action calculates the total price based on the provided watch IDs, considering any discounts.
 
 Discount Logic:
